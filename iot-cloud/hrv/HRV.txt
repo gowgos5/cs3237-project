@@ -1,0 +1,16 @@
+HRV score
+
+ibi: interbeat / R-R interval
+sdnn: standard deviation of NN (R-R) intervals
+sdsd: standard deviation of successive differences
+rmssd:  Root mean square of the successive differences – used for a good snapshot 
+of the Autonomic Nervous System’s Parasympathetic branch and is the basis of our “HRV Score”
+NN20: the number of pairs of successive NNs that differ by more than 20 ms.
+pNN20: the proportion of NN20 divided by total number of NNs.
+NN50: the number of pairs of successive NNs that differ by more than 50 ms.
+pNN50: the proportion of NN50 divided by total number of NNs.
+MAD: median absolute deviation of RR intervals (MAD)
+EBC: the range (max-min) within a moving window of a given time duration within the study period. The windows 
+can move in a self-overlapping way or be strictly distinct (sequential) windows. EBC is often provided in data
+acquisition scenarios where HRV feedback in real time is a primary goal. EBC derived from PPG over 10-second and
+16-second sequential and overlapping windows has been shown to correlate highly with SDNN.

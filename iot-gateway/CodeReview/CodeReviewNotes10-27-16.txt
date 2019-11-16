@@ -1,0 +1,25 @@
+Code Review Notes
+
+Presenter: Jerry Bradshaw
+
+Code to be reviewed: MAXREFES100 Android App
+Language: Java
+
+Attendees: 
+Ben Smith
+Faisal Tariq
+
+Review Date: October 27, 2016
+Review Time: 2:00pm
+
+Action Items <Capture all action items here>
+1. change the static string to const
+2. DeviceScanActivity.java line 134, redundant if checks
+3. DeviceScanActivity.java, missing method comments
+4. change environmental to HSP in uuid definitions
+5. line 203 SensorActivity.java delete click handler... not used anymore
+6. line 386 ToFahrenheit method... use 0.f for values in calculation
+7. magic number values line 631 on sensor activity 0x01 and 0x00
+
+All items have been assigned to Jerry Bradshaw.
+All items were completed by Jerry Bradshaw on November 3, 2016.
